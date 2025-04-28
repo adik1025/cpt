@@ -51,7 +51,7 @@ def main():
             q = input("Enter a question (leave blank to stop adding questions): ")
             if q.strip() == "":
                 break
-            a = input("Enter the answer to yourLquestion: ")
+            a = input("Enter the answer to your question: ")
             
             flashcards.append((q, a)) # Appends tuple containing question and answer to the list of flashcards
             
