@@ -19,7 +19,7 @@ def quiz_card(card, attempts=3):
     answer = card[1]
     
     tries = 0
-    while tries < attempts: # Loop until the num of tries is exhausted
+    while tries < attempts: # Loop until the number of tries is exhausted
         
         user = input(f"{question} ") # Ask user question
         
